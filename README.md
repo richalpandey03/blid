@@ -37,9 +37,9 @@ The client is the frontend of the Rick and Morty app, built using React.js. It d
 
 Setup Instructions:
 
-  Create a .env file in the client directory with the following data:
+  	Create a .env file in the client directory with the following data:
 
-  REACT_APP_SERVER_URL=http://localhost:5000
+  	REACT_APP_SERVER_URL=http://localhost:5000
 
 Commands:
 

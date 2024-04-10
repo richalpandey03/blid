@@ -18,6 +18,7 @@ Setup Instructions:
 Create a .env file in the server directory with the following data:
 
 PORT=5000
+
 RICK_MORTY_CHAR_API=https://rickandmortyapi.com/api/character
 
 Commands:

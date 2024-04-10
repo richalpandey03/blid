@@ -42,3 +42,10 @@ To install all required packages: npm install
 
 To start the client: npm start
 
+UI Snapshots : 
+Main page : list of characters
+<img width="1438" alt="Screenshot 2024-04-10 at 7 36 06 PM" src="https://github.com/richalpandey03/blid/assets/66243723/509c578e-ead3-43fd-b777-e2820f299e4a">
+
+
+
+

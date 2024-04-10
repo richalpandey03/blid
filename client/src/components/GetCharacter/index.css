@@ -1,0 +1,162 @@
+.g-0{
+    margin : 0;
+    padding : 0;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.spinner {
+    border: 4px solid rgb(255 255 255 / 10%);
+    border-left-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.details-of-character{
+    min-height: 100vh;
+    background-color: #393939;
+}
+
+.character-details-parent{
+    color:white;
+}
+
+.about-details{
+    border-radius: 30px;
+    background-color: grey;
+    padding: 20px !important;
+}
+
+.title-div{
+    margin-top: 20px !important;
+}
+
+.spacing-class{
+    margin-top:30px !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.about-title{
+    letter-spacing: 12px;
+    font-size: 25px;
+}
+
+.character-page-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-image-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.character-image-parent img{
+    width: 50%;
+    border-radius: 108%;
+}
+
+.sub-details-div{
+    margin-top: 38px !important;
+}
+
+.char-name{
+    letter-spacing: 5px;
+    font-size: 35px;
+}
+
+.side-bar-name{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px !important;
+}
+
+.side-bar-name-span{
+    font-size:25px;
+}
+
+.backicon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backicon-img{
+    cursor: pointer;
+    width: 30%;
+    border-radius: 54px;
+}
+
+@media (max-width: 992px){
+    .backicon-img{
+        width: 43%;
+    }
+}
+
+@media (max-width : 768px){
+    .spacing-class{
+        font-size: 16px;
+    }
+
+    .backicon-img{
+        width: 52%;
+    }
+}
+
+@media (max-width : 575px){
+    .side-bar-name-span{
+        display: none;
+    }
+
+    .backicon-img {
+        width: 35%;
+    }
+
+    .character-page-title{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .character-image-parent{
+        margin-bottom: 25px;
+    }
+
+    .spacing-class{
+        font-size: 18px;
+    }
+
+    .character-image-parent img{
+        width: 40%;
+    }
+}
+
+@media (max-width: 425px){
+
+    .backicon-img {
+        width: 40%;
+    }
+
+    .char-name{
+        font-size: 25px;
+    }
+
+    .spacing-class{
+        font-size: 16px;
+    }
+
+}
+

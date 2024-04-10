@@ -1,1 +1,169 @@
+.g-0{
+    margin : 0;
+    padding : 0;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.spinner {
+    border: 4px solid rgb(255 255 255 / 10%);
+    border-left-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.pagination-section{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.page-link{
+    color : black !important;
+}
+
+.pagination{
+    margin:0;
+}
+
+.get-list-parent{
+    background-color: #393939;
+}
+
+.page-title-parent{
+    padding: 40px 0 40px 35px
+}
+
+.list-row{
+    background-color: #393939;
+}
+
+.page-title{
+    font-weight: 700;
+    letter-spacing: 11px;
+    color: white;
+    font-size: 60px;
+}
+
+.title-line{
+    width: 85px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+
+.last-location-section{
+    margin: 20px 0 !important; 
+}
+
+.char-image-div{
+    width: 100%;
+    height: 100%;
+}
+
+.card-element-row{
+    margin: 35px !important;
+    background-color: grey;
+    border-radius: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.card-element-row:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.character-img{
+    border-bottom-left-radius: 17px;
+    border-top-left-radius: 17px;
+    max-width: 100%;
+    height: 100%;
+}
+
+.details-parent-div{
+    padding: 20px 0 20px 20px
+}
+
+.character-name{
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.character-status{
+    display: flex;
+    align-items: center;
+}
+
+.dot{
+    width: 10px; 
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: #3af13a;
+}
+
+.last-know-location{
+    color: #cfcfcf;
+}
+
+.last-know-location-value{
+    font-weight: 600;
+}
+
+.first-seen{
+    color: #cfcfcf;
+}
+
+.first-seen-value{
+    font-weight: 600;
+}
+
+@media (max-width: 768px){
+    .page-title {
+        letter-spacing: 0px;
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width : 575px){
+    .char-image-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .character-img{
+        border-radius: 100%;
+        width: 50%;
+    }
+
+    .details-parent-div {
+        padding: 20px;
+    }
+}
+
+
+
+
 

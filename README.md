@@ -22,6 +22,7 @@ RICK_MORTY_CHAR_API=https://rickandmortyapi.com/api/character
 Commands:
 
 To install all required packages: npm install
+
 To start the server: npm run dev
 
 
@@ -38,5 +39,6 @@ REACT_APP_SERVER_URL=http://localhost:5000
 Commands:
 
 To install all required packages: npm install
+
 To start the client: npm start
 

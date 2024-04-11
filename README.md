@@ -23,11 +23,13 @@ Create a .env file in the server directory with the following data:
 
 Commands:
 
-		To install all required packages:
-		npm install
+To install all required packages:
 
-		To start the server: 
-		npm run dev
+	npm install
+
+To start the server: 
+
+	npm run dev
 
 
 
@@ -45,9 +47,13 @@ Setup Instructions:
 
 Commands:
 
-	To install all required packages: npm install
+To install all required packages: 
 
-	To start the client: npm start
+	npm install
+
+To start the client: 
+	
+	npm start
 
 
 

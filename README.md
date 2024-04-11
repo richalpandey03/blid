@@ -15,17 +15,19 @@ The server serves as the backend for the Rick and Morty app. It interacts with t
 
 Setup Instructions:
 
-  Create a .env file in the server directory with the following data:
+Create a .env file in the server directory with the following data:
 
-  PORT=5000
+	PORT=5000
 
-  RICK_MORTY_CHAR_API=https://rickandmortyapi.com/api/character
+	RICK_MORTY_CHAR_API=https://rickandmortyapi.com/api/character
 
 Commands:
 
-  To install all required packages: npm install
+		To install all required packages:
+		npm install
 
-  To start the server: npm run dev
+		To start the server: 
+		npm run dev
 
 
 
@@ -37,15 +39,15 @@ The client is the frontend of the Rick and Morty app, built using React.js. It d
 
 Setup Instructions:
 
-  	Create a .env file in the client directory with the following data:
+  Create a .env file in the client directory with the following data:
 
   	REACT_APP_SERVER_URL=http://localhost:5000
 
 Commands:
 
-  To install all required packages: npm install
+	To install all required packages: npm install
 
-  To start the client: npm start
+	To start the client: npm start
 
 
 
